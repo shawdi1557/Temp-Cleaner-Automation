@@ -23,21 +23,6 @@ scheduled to run automatically via Windows Task Scheduler.
 - No additional software or installation needed (uses built-in Command Prompt commands)
 - Administrator rights required to fully clean `C:\Windows\Temp` (the `%temp%` portion works without admin rights)
 
-## Script
-
-```batch
-@echo off
-echo Cleaning temp files...
-
-del /q /f /s "%temp%\*.*" >nul 2>&1
-for /d %%x in ("%temp%\*") do rd /s /q "%%x" >nul 2>&1
-
-del /q /f /s "C:\Windows\Temp\*.*" >nul 2>&1
-for /d %%x in ("C:\Windows\Temp\*") do rd /s /q "%%x" >nul 2>&1
-
-echo Done cleaning temp files.
-```
-
 ## Manual usage
 
 1. Save the script as `clean_temp.bat`
