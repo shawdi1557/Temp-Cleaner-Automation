@@ -15,7 +15,7 @@ scheduled to run automatically via Windows Task Scheduler.
 
 | File | Purpose |
 |---|---|
-| `clean_temp.bat` | The cleanup script itself |
+| `Temp_Cleaner.bat` | The cleanup script itself |
 
 ## Requirements
 
@@ -25,7 +25,7 @@ scheduled to run automatically via Windows Task Scheduler.
 
 ## Manual usage
 
-1. Save the script as `clean_temp.bat`
+1. Copy the Script / Clone this repo and Save it as `Temp_Cleaner.bat`
 2. Right-click the file → **Run as administrator** (needed to clean `C:\Windows\Temp` fully)
 3. The window will close automatically when done (no output shown by default)
 
@@ -41,7 +41,7 @@ scheduled to run automatically via Windows Task Scheduler.
    - Set frequency (e.g. Daily) and time
 4. **Actions tab** → New:
    - Action: **Start a program**
-   - Program/script: path to `clean_temp.bat` (e.g. `D:\Scripts\clean_temp.bat`)
+   - Program/script: path to `clean_temp.bat` (e.g. `D:\Scripts\Teamp_Cleaner.bat`)
    - Start in (optional): the folder containing the script (e.g. `D:\Scripts`)
 5. Click **OK** to save
 
