@@ -41,7 +41,7 @@ scheduled to run automatically via Windows Task Scheduler.
    - Set frequency (e.g. Daily) and time
 4. **Actions tab** → New:
    - Action: **Start a program**
-   - Program/script: path to `clean_temp.bat` (e.g. `D:\Scripts\Teamp_Cleaner.bat`)
+   - Program/script: path to `Temp_Cleaner.bat` (e.g. `D:\Scripts\Teamp_Cleaner.bat`)
    - Start in (optional): the folder containing the script (e.g. `D:\Scripts`)
 5. Click **OK** to save
 
